@@ -1,0 +1,60 @@
+<h1>Страница пользователя Пётр</h1>
+
+<strong>Имя</strong>
+
+<p>><?php
+
+$name = 'Пётр';
+
+
+echo $name;
+echo PHP_EOL;
+
+?></p>
+
+<strong>Возраст</strong>
+
+<p><?php
+
+$age = '24';
+
+echo $age;
+echo PHP_EOL;
+
+?></p>
+
+
+<strong>Адрес электронной почты</strong>
+
+<p><?php
+
+$mail = 'petrmart@inbox.ru';
+
+echo $mail;
+echo PHP_EOL;
+
+?></p>
+
+<strong>Город</strong>
+
+<p><?php
+
+$city = 'Нижний Новгород';
+
+echo $city;
+echo PHP_EOL;
+
+?></p>
+
+<strong>О себе</strong>
+
+<p><?php
+
+$aboutme = 'студент Нетологии';
+
+echo $aboutme;
+echo PHP_EOL;
+
+?></p>
+
+
